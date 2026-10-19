@@ -47,11 +47,13 @@ Debes considerar el uso del patrón Flyweight en los siguientes escenarios:
 2. **La Fábrica (`TreeFactory`):** Administra un *pool* de objetos para garantizar que los tipos compartidos se reutilicen en lugar de duplicarse.
 3. **El Objeto Contextual (`Tree`):** Almacena únicamente el estado extrínseco (coordenadas) y una referencia ligera hacia el flyweight.
 
+<img width="561" height="397" alt="Screenshot 2026-10-19 112921" src="https://github.com/user-attachments/assets/3cf40e03-8c1a-433a-8b70-8b4decc80bff" />
+
+https://refactoring.guru/es/design-patterns/flyweight
 
 * **Ventajas:**
 * Reducción drástica del uso de memoria RAM (de millones de objetos pesados a solo unos pocos tipos únicos compartidos).
 * Eficiencia y fluidez optimizada en renderizado o procesamiento a gran escala.
-
 
 
 ---
